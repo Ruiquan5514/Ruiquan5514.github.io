@@ -1,1 +1,1 @@
-Hi there, I am Ruiquan Huang
+Ruiquan Huang
