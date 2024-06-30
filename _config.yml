@@ -7,4 +7,4 @@ url: "https://your-username.github.io" # the base hostname & protocol for your s
 
 # Build settings
 markdown: kramdown
-theme: minima # Change this to your theme's name
+ 
