@@ -1,0 +1,9 @@
+title: "Your Site Title"
+email: "your-email@example.com"
+description: "A brief description of your site"
+baseurl: "" # the subpath of your site, e.g. /blog, leave it empty for root
+url: "https://your-username.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima # Change this to your theme's name
