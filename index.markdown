@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: "About Me"
 ---
 
 Hi there, my name is Ruiquan Huang. I am a Ph.D. candidate at <a href="https://psu.edu" target="_blank">The Pennsylvania State University</a>, and am fortunate to be advised by Professor <a href="https://www.ee.psu.edu/yang/" target="_blank">Jing Yang</a>. My research focuses on *reinforcement learning*, *transformer theory*, *safety and privacy issues* in learning problems.
