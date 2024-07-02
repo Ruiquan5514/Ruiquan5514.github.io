@@ -20,9 +20,9 @@ Hi there, my name is Ruiquan Huang. I am a Ph.D. candidate at <a href="https://p
 **R. Huang**, W. Wu, J. Yang, C. Shen, Neurips 2021.
   
 # Awards
-- Future Faculty Immersive Teaching (FIT) Fellow, 2023-2024.
-- Melvin P. Bloom Memorial Graduate Fellowship in Electrical Engineering, 2024.
-- Joab and Marly Thomas Graduate Fellowship, 2024-2025.
+- Future Faculty Immersive Teaching (FIT) Fellow at PSU, 2023-2024.
+- Melvin P. Bloom Memorial Graduate Fellowship in Electrical Engineering at PSU, 2024.
+- Joab and Marly Thomas Graduate Fellowship, PSU 2024-2025.
 
 # Teaching
 Instructor of [EDSGN 100](https://sites.psu.edu/engineeringdesign100/), Fall 2023, Spring 2024.
