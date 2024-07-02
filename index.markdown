@@ -5,7 +5,7 @@
 layout: home
 ---
 # About Me
-Hi there, my name is Ruiquan Huang. I am a Ph.D. candidate at [The Pennsylvania State University](https://psu.edu) 
+Hi there, my name is Ruiquan Huang. I am a Ph.D. candidate at <a href="https://psu.edu" target="_blank">[The Pennsylvania State University](https://psu.edu) 
 
 # Selected Publications
 
@@ -14,7 +14,7 @@ Hi there, my name is Ruiquan Huang. I am a Ph.D. candidate at [The Pennsylvania 
 # Teaching
 
 ## Contact
-- **Email**: [rzh 55 14 at psu dot edu](rzh5514@psu.edu)
+- **Email**: <a href="mailto:rzh5514@psu.edu" target="_blank">rzh 55 14 at psu dot edu</a>
 - **LinkedIn**: [Ruiquan Huang]
 - **GitHub**: [Ruiquan5514]
 
