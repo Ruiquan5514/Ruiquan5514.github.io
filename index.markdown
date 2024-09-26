@@ -15,11 +15,12 @@ My research focuses on *reinforcement learning*, *transformer theory*, *safety a
 
 
 # Selected Publications ([Full list](https://scholar.google.com/citations?user=0eo3JGgAAAAJ&hl=en))
+- Non-asymptotic Convergence of Training Transformers for Next-token Prediction, **R. Huang**, Y. Liang, J. Yang, NeurIPS 2024.
 - [Provably Efficient UCB-type Algorithms For Learning Predictive State Representations](https://arxiv.org/abs/2307.00405), **R. Huang**, Y. Liang, J. Yang, ICLR 2024.
 - [Safe Exploration Incurs Nearly No Additional Sample Complexity for Reward-free RL](https://arxiv.org/abs/2206.14057), **R. Huang**, J. Yang, Y. Liang, ICLR 2023.
 - [Federated Linear Contextual Bandits with User-level Differential Privacy](https://proceedings.mlr.press/v202/huang23q.html), **R.Huang**, H. Zhang, L. Melis, M. Shen, M. Hejazinia, J. Yang ICML 2023.
 - [Federated Linear Contextual Bandits](https://proceedings.neurips.cc/paper_files/paper/2021/hash/e347c51419ffb23ca3fd5050202f9c3d-Abstract.html)
-**R. Huang**, W. Wu, J. Yang, C. Shen, Neurips 2021.
+**R. Huang**, W. Wu, J. Yang, C. Shen, NeurIPS 2021.
   
 # Awards
 - Future Faculty Immersive Teaching (FIT) Fellow at PSU, 2023-2024.
@@ -30,7 +31,7 @@ My research focuses on *reinforcement learning*, *transformer theory*, *safety a
 Instructor of [EDSGN 100](https://sites.psu.edu/engineeringdesign100/), Fall 2023, Spring 2024.
 
 # Service
-- Conference reviewer: Neurips, ICML, ICLR.
+- Conference reviewer: Neurips, ICML, ICLR, AAAI, AISTATS
 
 
 
