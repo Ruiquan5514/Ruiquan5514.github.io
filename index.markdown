@@ -15,7 +15,7 @@ My research focuses on *reinforcement learning*, *transformer theory*, *safety a
 
 
 # Selected Publications ([Full list](https://scholar.google.com/citations?user=0eo3JGgAAAAJ&hl=en))
-- Non-asymptotic Convergence of Training Transformers for Next-token Prediction, **R. Huang**, Y. Liang, J. Yang, NeurIPS 2024.
+- [Non-asymptotic Convergence of Training Transformers for Next-token Prediction](http://arxiv.org/abs/2409.17335), **R. Huang**, Y. Liang, J. Yang, NeurIPS 2024.
 - [Provably Efficient UCB-type Algorithms For Learning Predictive State Representations](https://arxiv.org/abs/2307.00405), **R. Huang**, Y. Liang, J. Yang, ICLR 2024.
 - [Safe Exploration Incurs Nearly No Additional Sample Complexity for Reward-free RL](https://arxiv.org/abs/2206.14057), **R. Huang**, J. Yang, Y. Liang, ICLR 2023.
 - [Federated Linear Contextual Bandits with User-level Differential Privacy](https://proceedings.mlr.press/v202/huang23q.html), **R.Huang**, H. Zhang, L. Melis, M. Shen, M. Hejazinia, J. Yang ICML 2023.
