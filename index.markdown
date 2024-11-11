@@ -8,7 +8,7 @@ title: About Me
 
 Hi there, my name is Ruiquan Huang. I am a Ph.D. candidate at <a href="https://psu.edu" target="_blank">The Pennsylvania State University</a>, and am fortunate to be advised by Professor <a href="https://www.ee.psu.edu/yang/" target="_blank">Jing Yang</a>. Prior to that, I received my B.S. from the University of Science and Technology of China (USTC), and M.S. degrees from Columbia University.
 
-My research focuses on *reinforcement learning*, *transformer theory*, *safety and privacy issues* in learning problems.
+My research focuses on *reinforcement learning*, *deep learning theory*, *trustworthiness* including safety, privacy and robustness in learning problems.
 
 - **Email**: <a href="mailto:rzh5514@psu.edu" target="_blank">rzh 55 14 at psu dot edu</a>
 - **LinkedIn**: [Ruiquan Huang](https://www.linkedin.com/in/ruiquan-huang-369543185/)
