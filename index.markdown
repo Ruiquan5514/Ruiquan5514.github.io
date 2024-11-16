@@ -5,10 +5,13 @@
 layout: home
 title: About Me
 ---
-
+<img align="right" src="profile_pic.jpg" width="150">
 Hi there, my name is Ruiquan Huang. I am a Ph.D. candidate at <a href="https://psu.edu" target="_blank">The Pennsylvania State University</a>, and am fortunate to be advised by Professor <a href="https://www.ee.psu.edu/yang/" target="_blank">Jing Yang</a>. Prior to that, I received my B.S. from the University of Science and Technology of China (USTC), and M.S. degrees from Columbia University.
 
-My research focuses on *reinforcement learning*, *deep learning theory*, *trustworthiness* including safety, privacy and robustness in learning problems.
+<br/><br/>
+
+My research interests span a broad spectrum, ranging from *reinforcement learning (RL)* and *bandits* to *statistical learning theory* and *deep learning*. The ultimate goal is to advance machine learning (ML) and develop provable yet practically **efficient and trustworthy** machine learning algorithms. My current research topics can be largely grouped into five aspects of efficiency and trustworthiness in ML: (1) **statistical efficiency**, (2) **computational efficiency**, (3) **safety**, (4) **privacy**, and (5) **robustness**.
+
 
 - **Email**: <a href="mailto:rzh5514@psu.edu" target="_blank">rzh 55 14 at psu dot edu</a>
 - **LinkedIn**: [Ruiquan Huang](https://www.linkedin.com/in/ruiquan-huang-369543185/)
