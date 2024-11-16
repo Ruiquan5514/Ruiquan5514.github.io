@@ -17,6 +17,8 @@ My research interests span a broad areas, ranging from *reinforcement learning (
 - **Email**: <a href="mailto:rzh5514@psu.edu" target="_blank">rzh 55 14 at psu dot edu</a>
 - **LinkedIn**: [Ruiquan Huang](https://www.linkedin.com/in/ruiquan-huang-369543185/)
 
+<br>
+<br>
 
 # Selected Publications ([Full list](https://scholar.google.com/citations?user=0eo3JGgAAAAJ&hl=en))
 - [Non-asymptotic Convergence of Training Transformers for Next-token Prediction](http://arxiv.org/abs/2409.17335), **R. Huang**, Y. Liang, J. Yang, NeurIPS 2024.
@@ -25,14 +27,23 @@ My research interests span a broad areas, ranging from *reinforcement learning (
 - [Federated Linear Contextual Bandits with User-level Differential Privacy](https://proceedings.mlr.press/v202/huang23q.html), **R.Huang**, H. Zhang, L. Melis, M. Shen, M. Hejazinia, J. Yang ICML 2023.
 - [Federated Linear Contextual Bandits](https://proceedings.neurips.cc/paper_files/paper/2021/hash/e347c51419ffb23ca3fd5050202f9c3d-Abstract.html)
 **R. Huang**, W. Wu, J. Yang, C. Shen, NeurIPS 2021.
-  
+
+<br>
+<br>
+
 # Awards
 - Future Faculty Immersive Teaching (FIT) Fellow at PSU, 2023-2024.
 - Melvin P. Bloom Memorial Graduate Fellowship in Electrical Engineering at PSU, 2024.
 - Joab and Marly Thomas Graduate Fellowship, PSU 2024-2025.
 
+<br>
+<br>
+
 # Teaching
 Instructor of [EDSGN 100](https://sites.psu.edu/engineeringdesign100/), Fall 2023, Spring 2024.
+
+<br>
+<br>
 
 # Service
 - Conference reviewer: Neurips, ICML, ICLR, AAAI, AISTATS
