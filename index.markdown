@@ -11,7 +11,7 @@ Hi there, my name is Ruiquan Huang (pronounced 'Ray-chwen Hwang', you are also w
 <br>
 <br>
 
-My research interests span a broad areas, ranging from *reinforcement learning (RL)* and *bandits* to *statistical learning theory* and *deep learning*. The ultimate goal is to advance machine learning (ML) and develop provable yet practically **efficient and trustworthy** machine learning algorithms. My current research topics can be largely grouped into five aspects of efficiency and trustworthiness in ML: (1) **statistical efficiency**, (2) **computational efficiency**, (3) **safety**, (4) **privacy**, and (5) **robustness**.
+My research interests lie in broad areas, ranging from *reinforcement learning (RL)* and *bandits* to *statistical learning theory* and *deep learning*. The ultimate goal is to advance machine learning (ML) and develop provable yet practically **efficient and trustworthy** machine learning algorithms. My current research topics can be largely grouped into five aspects of efficiency and trustworthiness in ML: (1) **statistical efficiency**, (2) **computational efficiency**, (3) **safety**, (4) **privacy**, and (5) **robustness**.
 
 
 - **Email**: <a href="mailto:rzh5514@psu.edu" target="_blank">rzh 55 14 at psu dot edu</a>
