@@ -5,7 +5,7 @@
 layout: home
 title: About Me
 ---
-<img align="right" src="profile_pic_01.jpg" width="150" height="220" style="margin-left: 20px;">
+<img align="right" src="profile_pic_01.jpg" width="150" height="220" style="margin-left: 40px;">
 Hi there, my name is Ruiquan Huang (pronounced 'Ray-chwen Hwang', you are also welcome to call me Ray). I am a Ph.D. candidate at <a href="https://psu.edu" target="_blank">The Pennsylvania State University</a>, and am fortunate to be advised by Professor <a href="https://www.ee.psu.edu/yang/" target="_blank">Jing Yang</a>. Prior to that, I received my B.S. from the <a href="https://en.ustc.edu.cn/" target="_blank"> University of Science and Technology of China (USTC)</a>, and M.S. degrees from <a href="https://www.columbia.edu/" target="_blank"> Columbia University</a> .
 
 <br>
