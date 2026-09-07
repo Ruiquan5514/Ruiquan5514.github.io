@@ -730,6 +730,22 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        display: block;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+      }
+
+      .publication-preview {
+        figure {
+          margin-bottom: 0;
+        }
+
+        @media (min-width: 576px) {
+          .preview {
+            margin-left: auto;
+          }
+        }
       }
 
       .abbr {

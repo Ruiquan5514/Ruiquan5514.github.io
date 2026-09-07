@@ -6,9 +6,8 @@
     "url": "https://ruiquan5514.github.io",
     "Research Interests": "Machine Learning, Deep Learning, Reinforcement Learning, Large Language Models",
     "location": {
-      "address": "State College",
-      "postalCode": "PA 16801",
-      "city": "State College",
+      "city": "Lexington",
+      "region": "KY",
       "countryCode": "US"
     }
   },
@@ -27,7 +26,7 @@
     },
     {
       "name": "Penn State University",
-      "position": "Reseach Assistant",
+      "position": "Research Assistant",
       "startDate": "2020-08",
       "endDate": "2025-05"
     }
@@ -39,6 +38,17 @@
       "studyType": "PhD",
       "startDate": "2020-08",
       "endDate": "2025-05"
+    },
+    {
+      "institution": "Columbia University",
+      "studyType": "M.S.",
+      "endDate": "2019"
+    },
+    {
+      "institution": "University of Science and Technology of China",
+      "studyType": "B.S.",
+      "startDate": "2014",
+      "endDate": "2018"
     }
   ],
   "awards": [
@@ -56,24 +66,6 @@
       "title": "Future Faculty Immersive Teaching (FIT) Fellow",
       "date": "2023",
       "awarder": "PSU"
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    },
-    {
-      "language": "Mandarin",
-      "fluency": "Native Speaker",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Artificial Intelligence/Machine Learning",
-      "keywords": ["Deep Learning", "Reinforcement Learning", "Safety, Privacy, and Robustness"]
     }
   ]
 }

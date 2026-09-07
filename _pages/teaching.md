@@ -4,19 +4,18 @@ permalink: /teaching/
 title: teaching
 description:
 nav: true
-nav_order: 6
+nav_order: 3
 ---
 
 ## Current & Upcoming Courses
 
-- **CS 585: Sequential Decision Making**
+- **CS 667/585: Sequential Decision Making**
   _University of Kentucky, Fall 2026_
-  
-- **CS 575: Models of Computation**
-  _University of Kentucky, Spring 2026_
----
 
 ## Past Courses
+
+- **CS 575: Models of Computation**
+  _University of Kentucky, Spring 2026_
 
 - **CS 660: Large Language Models**
   _University of Kentucky, Fall 2025_
