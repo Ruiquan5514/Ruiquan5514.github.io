@@ -1,41 +1,41 @@
-# Ruiquan Huang — 个人网站
+# Ruiquan Huang — Personal Website
 
-网站：<https://ruiquan5514.github.io>
-技术：Jekyll + al-folio，发布到 GitHub Pages。
+Website: <https://ruiquan5514.github.io>
+Built with Jekyll and al-folio, hosted on GitHub Pages.
 
-## 日常维护：只需找到对应文件
+## Where to make updates
 
-| 要更新什么                     | 修改哪个文件                                                        |
-| ------------------------------ | ------------------------------------------------------------------- |
-| 首页简介、研究方向、招生信息   | `_pages/about.md`                                                   |
-| 论文列表、论文链接、首页代表作 | `_bibliography/papers.bib`                                          |
-| 新闻                           | `_news/YYYY-MM-DD-topic.md`，每条一个文件                           |
-| 课程                           | `_pages/teaching.md`                                                |
-| 网页 CV                        | `assets/json/resume.json`                                           |
-| 可下载的 CV                    | `assets/pdf/Resume_Ruiquan.pdf`；下载文件名在 `_pages/cv.md` 中配置 |
-| 组员名单与照片设置             | `_pages/profiles.md`                                                |
-| 你的组员介绍文字               | `_pages/about_me.md`                                                |
-| 邮箱、Google Scholar 等链接    | `_data/socials.yml`                                                 |
-| 首页照片                       | `assets/img/prof_pic.jpg`                                           |
-| 网站描述、地址、主题开关       | `_config.yml`                                                       |
+| Content                                                            | File to edit                                                                       |
+| ------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| Homepage biography, research interests, and recruiting information | `_pages/about.md`                                                                  |
+| Publications, paper links, and selected publications               | `_bibliography/papers.bib`                                                         |
+| News                                                               | `_news/YYYY-MM-DD-topic.md`, one file per announcement                             |
+| Courses                                                            | `_pages/teaching.md`                                                               |
+| Web CV                                                             | `assets/json/resume.json`                                                          |
+| Downloadable CV                                                    | `assets/pdf/Resume_Ruiquan.pdf`; configure the download filename in `_pages/cv.md` |
+| Group members and photo settings                                   | `_pages/profiles.md`                                                               |
+| Ruiquan's biography on the People page                             | `_pages/about_me.md`                                                               |
+| Email, Google Scholar, and other profile links                     | `_data/socials.yml`                                                                |
+| Homepage photo                                                     | `assets/img/prof_pic.jpg`                                                          |
+| Site description, URL, and theme settings                          | `_config.yml`                                                                      |
 
-网页 CV 当前显示 Basics、Work、Education、Awards 四栏。导航顺序为 About → Publications → Teaching → People → CV，由各页面的 `nav_order` 控制。
-网页 CV 与 PDF 是两个独立文件，更新其中一个不会自动修改另一个。
-`assets/pdf/CV-Ruiquan.pdf` 也是原有个人文件，本次保留；导航栏的 CV 下载按钮使用上表中的 `Resume_Ruiquan.pdf`。
+The web CV has four sections: Basics, Work, Education, and Awards. Navigation follows About → Publications → Teaching → People → CV, controlled by each page's `nav_order`.
+The web CV and PDF are separate files; updating one does not update the other.
+`assets/pdf/CV-Ruiquan.pdf` is also retained as an existing personal document. The download button on the CV page uses `Resume_Ruiquan.pdf`, listed above.
 
-## 最简单的更新方式
+## Update content on GitHub
 
-1. 在 GitHub 打开上表中的文件，点击铅笔编辑；新新闻使用 **Add file → Create new file**。
-2. 修改正文或数据；Markdown 顶部两行 `---` 之间的页面配置一般不用动。
-3. 提交到分支并创建 Pull Request，查看 **Deploy site** 和 **Prettier code formatter** 检查结果。
-4. 合并到 `main` 后，网站会自动构建并发布。构建后还需要等待 GitHub Pages 的发布任务完成。
+1. Open the relevant file on GitHub and click the pencil icon to edit it. For a new announcement, use **Add file → Create new file**.
+2. Edit the content or data. The page settings between the two `---` lines at the top of a Markdown file usually do not need to change.
+3. Commit to a branch, open a pull request, and check the **Deploy site** and **Prettier code formatter** results.
+4. Merging into `main` automatically builds and publishes the website. After the build, wait for the GitHub Pages deployment to finish.
 
-`main` 保存源文件；`gh-pages` 是自动生成的页面，不需要手动编辑。
-仅修改本 README 或 `docs/` 不会重新发布网站。
+`main` contains the source files. The generated pages are published to `gh-pages`, which does not need manual edits.
+Changes limited to this README or `docs/` do not trigger a website deployment.
 
-## 添加论文
+## Add a publication
 
-在 `_bibliography/papers.bib` 添加一条 BibTeX，例如：
+Add a BibTeX entry to `_bibliography/papers.bib`, for example:
 
 ```bibtex
 @inproceedings{unique_key,
@@ -48,18 +48,18 @@
 }
 ```
 
-- `unique_key` 必须唯一。已有条目的 key 尽量保留。
-- `selected={true}` 会将这篇论文加入首页代表作；删掉这一行就只显示在 Publications。
-- 论文按年份分组。首页代表作沿用 BibTeX 中的条目顺序，可移动完整条目调整顺序。
-- 首页代表作和论文列表默认使用完整列宽；所有作者直接显示（`_config.yml` 中的 `max_author_limit` 留空）。
-- 缩略图：将图片放到 `assets/img/publication_preview/`（目录不存在时新建），在论文条目中添加 `preview={my-paper.png}`。桌面上图片位于文字右侧，手机上位于文字下方；没有 `preview` 的论文不会预留空白。也可使用图片的完整 HTTPS 地址。缩略图开关 `enable_publication_thumbnails` 已启用。
-- 可选链接字段：`arxiv={论文编号}`、`pdf={完整PDF地址}`、`code={代码仓库地址}`、`html={论文页面地址}`。
-- 同一论文有预印本和正式发表版本时，通常更新同一个条目，保留 `arxiv` 和 `doi` 即可。
-- `_data/coauthors.yml` 和 `_data/venues.yml` 是可选的作者、会议链接配置，平时可以不改。
+- `unique_key` must be unique. Keep existing entry keys whenever possible.
+- `selected={true}` includes the paper in the homepage's selected publications. Remove that line to show it only on the Publications page.
+- Publications are grouped by year. Selected publications follow the order of entries in the BibTeX file; move entire entries to reorder them.
+- Entries use the full column width by default, and all authors are displayed. Keep `max_author_limit` empty in `_config.yml`.
+- For a thumbnail, place an image in `assets/img/publication_preview/` (create the directory if needed) and add `preview={my-paper.png}` to the entry. Images appear to the right of the text on desktop and below it on mobile. Entries without `preview` do not reserve an empty image column. A full HTTPS image URL also works. The `enable_publication_thumbnails` setting is enabled.
+- Optional link fields: `arxiv={arXiv identifier}`, `pdf={full PDF URL}`, `code={repository URL}`, and `html={paper page URL}`.
+- When a paper has both a preprint and a published version, update the same entry and retain its `arxiv` and `doi` fields.
+- `_data/coauthors.yml` and `_data/venues.yml` provide optional author and venue links. Routine updates usually do not require changing them.
 
-## 添加新闻
+## Add news
 
-新建 `_news/YYYY-MM-DD-topic.md`，填写真实日期和新闻内容：
+Create `_news/YYYY-MM-DD-topic.md` with the actual announcement date and content:
 
 ```markdown
 ---
@@ -69,22 +69,22 @@ inline: true
 related_posts: false
 ---
 
-新闻正文，可使用 Markdown 链接。
+Write the announcement here. Markdown links are supported.
 ```
 
-日期必须有效。首页默认显示最近 3 条，可在 `_pages/about.md` 的 `announcements.limit` 调整。
-旧新闻的 `permalink` 用来保留原来的网址，更新正文时保留它。
+Use a valid calendar date. The homepage displays the three most recent announcements by default; adjust `announcements.limit` in `_pages/about.md` to change this.
+Keep the `permalink` field in existing announcements when editing their content so their original URLs continue to work.
 
-## 更新课程、组员和 CV
+## Update courses, group members, and the CV
 
-- **课程**：编辑 `_pages/teaching.md`；学期结束后将课程移动到 Past Courses，可给课程名加上课程网站链接。
-- **组员**：在 `_pages/profiles.md` 的 `profiles` 下复制一个配置块，填写照片文件名和介绍文件名；介绍另存为 `_pages/member-name.md`（不加页面配置），照片放在 `assets/img/`。
-- **网页 CV**：只编辑 `assets/json/resume.json`。保持合法 JSON，不要在最后一个字段后加逗号。只知道毕业年份时，仅填写 `endDate` 即可。
-- **旧 CV 数据**：未被网页使用的 YAML 已移到 `docs/archive/cv-legacy.yml`，供查阅，不会发布。
+- **Courses**: Edit `_pages/teaching.md`. Move a course to Past Courses after the semester ends. Course titles can link to course websites.
+- **Group members**: Copy a configuration block under `profiles` in `_pages/profiles.md`, then set the photo and biography filenames. Save the biography in `_pages/member-name.md` without front matter, and place the photo in `assets/img/`.
+- **Web CV**: Edit `assets/json/resume.json`. Keep the JSON valid and avoid trailing commas. If only the graduation year is known, set `endDate` without a start date.
+- **Legacy CV data**: The unused YAML data is retained at `docs/archive/cv-legacy.yml` for reference and is excluded from the published website.
 
-## 本地预览与格式整理
+## Local preview and formatting
 
-需要 Ruby 3.3.5、Bundler、Node.js 22、Python 3 和 ImageMagick。
+Requirements: Ruby 3.3.5, Bundler, Node.js 22, Python 3, and ImageMagick.
 
 ```bash
 bundle install
@@ -93,7 +93,7 @@ python3 -m pip install -r requirements.txt
 bundle exec jekyll serve --host 127.0.0.1
 ```
 
-预览地址为 <http://127.0.0.1:4000>。修改 `_config.yml` 后需重启预览。
+The preview is available at <http://127.0.0.1:4000>. Restart the preview server after changing `_config.yml`.
 
 ```bash
 npm run format
@@ -101,23 +101,23 @@ npm run format:check
 JEKYLL_ENV=production bundle exec jekyll build
 ```
 
-格式检查失败时运行 `npm run format` 并提交结果。CI 使用仓库锁定的版本，与本地一致。
-提交 `Gemfile.lock` 和 `package-lock.json` 可以保持依赖一致。
+If the formatting check fails, run `npm run format` and commit the result. CI uses the same locked formatter version as the local environment.
+Keep `Gemfile.lock` and `package-lock.json` committed so dependency versions remain consistent.
 
-## 构建检查与目录约定
+## Build checks and directory layout
 
-- **Deploy site**：构建页面、检查生成页面的本地链接；Pull Request 只检查并保存可下载的 `website` 构建产物，合并后才发布。
-- **Check for broken links**：检查实际维护的页面和新闻中的链接。外部网站拒绝自动访问时，应查看报告区分访问限制与失效链接。
-- **Prettier code formatter**：检查格式。
-- 原有 CodeQL 和可访问性检查继续保留。
+- **Deploy site** builds the website and checks local links in the generated pages. Pull requests run checks and save a downloadable `website` artifact; deployment runs after merging.
+- **Check for broken links** checks links in maintained pages and announcements. If an external website blocks automated requests, inspect the report to distinguish an access restriction from a broken link.
+- **Prettier code formatter** checks formatting.
+- The existing CodeQL and accessibility workflows are retained.
 
-`_layouts/`、`_includes/`、`_sass/`、`_plugins/`、`assets/js/` 是主题实现，日常内容更新一般不需要修改。
-`docs/` 是维护资料，不会发布。模板示例博客、示例项目、读书页、演示媒体和主题截图已删除，可从 Git 历史找回。
-本次清理保留原有主页照片、favicon、个人 PDF、五个导航页面和主题实现。
+`_layouts/`, `_includes/`, `_sass/`, `_plugins/`, and `assets/js/` contain the theme implementation. Routine content updates usually do not require edits there.
+`docs/` contains maintenance material and is excluded from the published website. Template sample posts, projects, book pages, demo media, and theme screenshots were removed; they remain available in Git history.
+The cleanup preserved the original homepage photos, favicon, personal PDFs, five navigation pages, and theme implementation.
 
-## 主题参考与许可
+## Theme documentation and license
 
-基于 [al-folio](https://github.com/alshedivat/al-folio)。主题的完整使用说明见上游的
-[自定义指南](https://github.com/alshedivat/al-folio/blob/main/CUSTOMIZE.md) 和
-[安装指南](https://github.com/alshedivat/al-folio/blob/main/INSTALL.md)。
-保留原项目 [MIT License](LICENSE) 及页面主题署名。
+This website is based on [al-folio](https://github.com/alshedivat/al-folio). For full theme documentation, see the upstream
+[customization guide](https://github.com/alshedivat/al-folio/blob/main/CUSTOMIZE.md) and
+[installation guide](https://github.com/alshedivat/al-folio/blob/main/INSTALL.md).
+The original [MIT License](LICENSE) and theme attribution are retained.

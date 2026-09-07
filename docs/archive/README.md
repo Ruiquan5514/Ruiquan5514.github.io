@@ -1,5 +1,5 @@
-# 历史资料
+# Archived Data
 
-`cv-legacy.yml` 是清理前未被网页使用的 CV 数据，保留在这里供查阅。
-网页 CV 的唯一维护入口是 `assets/json/resume.json`。
-此目录不会发布到网站。
+`cv-legacy.yml` contains the unused CV data from before the cleanup and is retained here for reference.
+To update the web CV, edit `assets/json/resume.json`.
+This directory is excluded from the published website.
