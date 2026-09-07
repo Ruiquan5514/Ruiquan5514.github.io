@@ -1,8 +1,0 @@
----
-layout: post
-date: 2026-05-20
-inline: true
-related_posts: false
----
-
-Our paper: "[Breaking the Computational Barrier: Provably Efficient Actor-Critic for Low-Rank MDPs](https://arxiv.org/abs/2605.01242)" is accepted by ICML 2026!

@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi there, my name is Ruiquan Huang (pronounced _Ray-chwen Hwang_, you are also welcome to call me Ray). I am an Assistant Professor at the [Department of Computer Science](https://cs.engr.uky.edu/), [University of Kentucky](https://www.uky.edu/). I obtained Ph.D. from [The Pennsylvania State University](https://psu.edu), and am fortunate to be advised by Professor [Jing Yang](https://jing-yang7.github.io/). Prior to that, I received my B.S. from the University of Science and Technology of China (USTC), and M.S. degrees from Columbia University.
+Hi there, my name is Ruiquan Huang (pronounced _Ray-chwen Hwang_, you are also welcome to call me Ray). I am an Assistant Professor at the [Department of Computer Science](https://cs.engr.uky.edu/), [University of Kentucky](https://www.uky.edu/). I obtained my Ph.D. from [The Pennsylvania State University](https://psu.edu), where I was fortunate to be advised by Professor [Jing Yang](https://jing-yang7.github.io/). Prior to that, I received my B.S. from the University of Science and Technology of China (USTC), and my M.S. from Columbia University.
 
 My research interests lie broadly in Machine Learning (ML) and Artificial Intelligence (AI), with a particular focus on deep learning, reinforcement learning, and the trustworthiness of ML/AI systems.
 
